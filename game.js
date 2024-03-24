@@ -8,7 +8,7 @@ let audio;
 
 let arr=["green","red","yellow","blue"];
 
-$(document).on("dblclick",()=>{
+$(document).on("click",()=>{
     if(!started){
         nextSequence();
         started=true;
