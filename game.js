@@ -8,7 +8,7 @@ let audio;
 
 let arr=["green","red","yellow","blue"];
 
-$(document).on("keypress",()=>{
+$(document).on("dblclick",()=>{
     if(!started){
         nextSequence();
         started=true;
